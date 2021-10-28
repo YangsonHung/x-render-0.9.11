@@ -46,10 +46,6 @@ const listItemHoc = ButtonComponent =>
       value.splice(name, 1);
       this.props.handleDeleteItem(name);
       p.onChange(p.name, value);
-      // 计算页码
-      const list = Array.isArray(value) ? value : [];
-      const page = Math.ceil(list.length / pageSize);
-      this.props.handlePageChange(page, pageSize);
     };
 
     render() {

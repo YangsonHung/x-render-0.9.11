@@ -1,6 +1,6 @@
 {
   "name": "@clone-yangson/form-render",
-  "version": "0.9.11-rc.2",
+  "version": "0.9.11-rc.3",
   "description": "通过 JSON Schema 生成标准 Form，常用于自定义搭建配置界面生成",
   "repository": {
     "type": "git",
